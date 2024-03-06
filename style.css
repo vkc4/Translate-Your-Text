@@ -109,3 +109,122 @@ border-bottom: 1px solid #bbb;
     font-size: 17px;
     outline: none;
 }
+
+/* Media Queries */
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .wrapper {
+        border: none;
+    }
+}
+
+/* Adjustments for even smaller screens */
+@media only screen and (max-width: 576px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+
+    /* Media Queries for .text-input textarea */
+
+@media only screen and (max-width: 768px) {
+    .text-input textarea {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .text-input textarea {
+        height: 150px;
+        font-size: 16px;
+    }
+}
+
+/* Media Queries for .wrapper .text-input */
+
+@media only screen and (max-width: 576px) {
+    .wrapper .text-input {
+        flex-direction: column;
+    }
+}
+
+/* Media Queries for .text-input .to-text */
+
+@media only screen and (max-width: 576px) {
+    .text-input .to-text {
+        border-left: none;
+        border-top: 1px solid #bbb;
+        border-radius: 0px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
+
+/* Media Queries for .controls, li, .icons, .icons i */
+
+@media only screen and (max-width: 768px) {
+    .controls {
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .controls .icons {
+        width: auto;
+    }
+}
+
+/* Media Queries for .controls .row.form .icons and .controls .row.to .icons */
+
+@media only screen and (max-width: 576px) {
+    .controls .row.form .icons,
+    .controls .row.to .icons {
+        border-right: none;
+        padding-right: 0;
+    }
+}
+
+/* Media Queries for .controls .icons i */
+
+@media only screen and (max-width: 576px) {
+    .controls .icons i {
+        width: auto;
+        margin-right: 10px; /* Adjust spacing as needed */
+    }
+}
+
+/* Media Queries for .controls .row select */
+
+@media only screen and (max-width: 576px) {
+    .controls .row select {
+        font-size: 16px; /* Adjust font size as needed */
+    }
+}
+
+
+/* Media Queries for .container button */
+
+@media only screen and (max-width: 576px) {
+    .container button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Additional Media Queries as needed */
+
